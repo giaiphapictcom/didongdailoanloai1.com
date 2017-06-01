@@ -1,0 +1,202 @@
+/*-------------------------Menu Doc -------------------------------*/
+.ddsmoothmenu {
+    position: relative;
+    z-index: 8;
+}
+.ddsmoothmenu ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.ddsmoothmenu ul li {
+    position: relative;
+}
+/* Top level menu links style */
+.ddsmoothmenu ul li a {
+    font: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 27px;
+    text-decoration: none;
+    padding-left: 32px;
+    display: block;
+    border-bottom: 1px solid #FFF;
+    background: #EEF1F8 url('../images/category_item.jpg') no-repeat;
+    color: #000;
+    text-transform: none;
+}
+* html .ddsmoothmenu3 ul li a{
+    display: inline-block;
+}
+.ddsmoothmenu ul li a.selected {
+    color: #DF0000;
+}
+.ddsmoothmenu ul li a:link{
+    color: #000;
+}
+.ddsmoothmenu ul li a:focus, .ddsmoothmenu ul li a:hover, .ddsmoothmenu ul li a:active {
+    color: #ED1C24;
+    font-weight: bold;
+    text-decoration:none;
+}
+/*Sub level menu items */
+.ddsmoothmenu ul li ul {
+    height:32px;
+    line-height:32px;
+    color:#000;
+    position: absolute;
+    width: auto;
+    min-width:240px;
+    white-space:nowrap;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+.ddsmoothmenu ul li ul li a {
+    line-height:30px;
+    margin: 0;
+    border-left: 1px solid #EFEFEF;
+}
+.ddsmoothmenu ul li ul li a:hover {
+    color: #ED1C24;
+    text-decoration:none;
+}
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu ul li {
+    float: left;
+    height: 1%;
+}
+* html .ddsmoothmenu ul li a {
+    height: 1%;
+}
+/* End */
+
+/*============================ Menu ngang ========================*/
+.ddsmoothmenu3{
+    position: relative;
+    z-index: 9;
+    padding-left: 35px;
+}
+.ddsmoothmenu3 ul{
+    z-index:7;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*Top level list items*/
+.ddsmoothmenu3 ul li{
+    position: relative;
+    display: inline;
+    float: left;
+    z-index: 7;
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenu3 ul li a {
+    color: #FFF;
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0px 25px;
+    text-decoration: none;
+}
+* html .ddsmoothmenu3 ul li a{
+    display: inline-block;
+}
+.ddsmoothmenu3 ul li a.selected {
+    color: #FFF;
+    background: #2E5F31;
+    text-decoration: underline;
+}
+.ddsmoothmenu3 ul li a:focus, .ddsmoothmenu3 ul li a:hover, .ddsmoothmenu3 ul li a:active {
+    color: #FFF;
+    background: #2E5F31;
+    text-decoration: none;
+}
+
+/*1st sub level menu*/
+.ddsmoothmenu3 ul li ul{
+    position: absolute;
+    left: 0;
+    display: none;
+    visibility: hidden;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu3 ul li ul li ul{
+    top: -6px;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu3 ul li ul li a{
+    min-width: 190px;
+    font-size: 12px;
+    text-transform: none;
+    font-weight: normal;
+    color: #2D2C2C;
+    margin: 0;
+    line-height: 28px;
+    border-top-width: 0;
+    border-bottom: 1px solid gray;
+    background: #F4F4F4;
+    opacity: 0.9;
+    z-index: 9;
+    padding-left: 10px;
+}
+.ddsmoothmenu3 ul li ul li a:hover{
+    color: #FFF;
+    background: #2E5F31;
+    text-decoration: none;
+}
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu3 ul li {
+    float: left;
+    height: 1%;
+}
+* html .ddsmoothmenu3 ul li a {
+    height: 1%;
+}
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass {
+    /*    position: absolute;
+        right: 11px;
+        top: 15px;*/
+    display: none;
+}
+.rightarrowclass {
+    display: none;
+}
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow {
+    display: none;
+    background: none;
+}
+.toplevelshadow {
+}
+#linearBg2 {
+    /* fallback */
+    background-color: #CDCDCD;
+    background-repeat: repeat-x;
+
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CDCDCD), to(#FEFEFE));
+
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #CDCDCD, #FEFEFE);
+
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #CDCDCD, #FEFEFE);
+
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #CDCDCD, #FEFEFE);
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #CDCDCD, #FEFEFE);
+}

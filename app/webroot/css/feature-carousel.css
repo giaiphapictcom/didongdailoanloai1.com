@@ -1,0 +1,55 @@
+/********************
+ * FEATURE CAROUSEL *
+ ********************/
+.carousel-container {
+  position:relative;
+  width:1000px;
+  margin: 0 auto;
+}
+#carousel {
+  position:relative;
+  margin-bottom:0.5em;
+  margin-left: 25px;
+}
+#carousel .carousel-feature{
+    background:url(../images/quai.png) no-repeat;
+    background-position: center 20px;
+	padding: 120px 0px 0px;
+	margin-top: -115px;
+}
+
+.carousel-image {
+  border:0;
+  display:block;
+}
+.carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+  cursor:pointer;
+}
+.carousel-feature .carousel-caption {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color:#000;
+}
+.carousel-feature .carousel-caption p {
+  margin:0;
+  padding:5px;
+  font-weight:bold;
+  font-size:12px;
+  color:white;
+}
+#carousel-left {
+  position:absolute;
+  bottom:120px;
+  left:10px;
+  cursor:pointer;
+}
+#carousel-right {
+  position:absolute;
+  bottom:120px;
+  right:10px;
+  cursor:pointer;
+}

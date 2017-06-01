@@ -1,0 +1,134 @@
+msgid "trangchu"
+msgstr "Trang chủ"
+
+msgid "gioithieu"
+msgstr "Về chúng tôi"
+
+msgid "danhmucsp"
+msgstr "Danh mục sản phẩm"
+
+msgid "timkiemsanpham"
+msgstr "Tìm kiếm sản phẩm"
+
+msgid "hotrotructuyen"
+msgstr "Hỗ trợ trực tuyến"
+
+msgid "sanphambanchay"
+msgstr "Sản phẩm nổi bật"
+
+msgid "doitactincay"
+msgstr "Đối tác tin cậy"
+
+msgid "tensanpham"
+msgstr "Tên sản phẩm"
+
+msgid "sanphamnoiibat"
+msgstr "Sản phẩm nổi bật"
+
+msgid "sanpham"
+msgstr "Sản phẩm"
+
+msgid "masanpham"
+msgstr "Mã sản phẩm"
+
+msgid "lienhe"
+msgstr "Liên hệ"
+
+msgid "hoten"
+msgstr "Họ tên"
+
+msgid "dienthoai"
+msgstr "Điện thoại"
+
+msgid "tieude"
+msgstr "Tiêu đề"
+
+msgid "noidung"
+msgstr "Nội dung"
+
+msgid "quangcao"
+msgstr "Đối tác"
+
+msgid "kienthucgiadinh"
+msgstr "Kiến thức gia đình"
+
+msgid "sanphammoi"
+msgstr "Sản phẩm mới"
+
+msgid "sanphamhot"
+msgstr "Sản phẩm nổi bật"
+
+msgid "tintucmoi"
+msgstr "Tin tức mới"
+
+msgid "chitietsanpham"
+msgstr "Chi tiết sản phẩm"
+
+msgid "sanphamcungloai"
+msgstr "Sản phẩm cùng loại"
+
+msgid "chitiet"
+msgstr "Chi tiết"
+
+msgid "danhgianhanxet"
+msgstr "Đánh giá nhận xét"
+
+msgid "ten"
+msgstr "Họ tên"
+
+msgid "diachiemail"
+msgstr "Email"
+
+msgid "sodienthoai"
+msgstr "Số điện thoại"
+
+msgid "maxacthuc"
+msgstr "Mã xác thực"
+
+msgid "noidungnhanxet"
+msgstr "Nội dung nhận xét"
+
+msgid "gui"
+msgstr "Gửi"
+
+msgid "cactinlienquan"
+msgstr "Các tin liên quan"
+
+msgid "timkiem"
+msgstr "Tìm kiếm"
+
+msgid "thucdon"
+msgstr "Take away"
+
+msgid "datban"
+msgstr "Đặt bàn"
+
+msgid "sukien"
+msgstr "Sự kiện"
+
+msgid "giohang"
+msgstr "Giỏ hàng"
+
+msgid "xacnhanthanhtoan"
+msgstr "Xác nhận thanh toán"
+
+msgid "news"
+msgstr "Tin tức"
+
+msgid "chamsockhachhang"
+msgstr "Chăm sóc khách hàng"
+
+msgid "goidientuvan"
+msgstr "Gọi điện cho chúng tôi <br>Để được tư vấn tốt nhất"
+
+msgid "xemthem"
+msgstr "Xem thêm"
+
+msgid "cactindadua"
+msgstr "Các tin đã đưa"
+
+msgid "View all"
+msgstr "Xem tất cả"
+
+msgid "back"
+msgstr "Quay lại"

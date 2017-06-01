@@ -1,0 +1,64 @@
+.hide {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+#orgatab {
+    width: 100%;
+}
+#orgatab .list-wrap {
+    padding-top: 20px;
+    border-top: 1px solid #243F48;
+    height: auto;
+}
+#orgatab ul {
+    list-style: none;
+}
+#orgatab ul li a {
+    display: block;
+    padding: 4px;
+}
+#orgatab .nav {
+    overflow: hidden;
+    margin-left: 0px;
+}
+#orgatab .nav li {
+    width: auto;
+    float: left;
+    margin: 0 1px 0 0;
+    min-width: 129px;
+}
+#orgatab .nav li.last {
+    margin-right: 0;
+}
+#orgatab .nav li a {
+    display: block;
+    padding: 4px 40px;
+    color: #000;
+    background: #EFEFEF;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+#orgatab li a.current, #orgatab li a.current:hover {
+    background: #B80101;
+    color: #FFF;
+}
+#orgatab .nav li a:hover, #orgatab .nav li a:focus {
+    background: #B80101;
+    color: #FFF;
+    text-decoration: none;
+}
+#featured1, #featured2, #featured3 {
+    overflow: hidden;
+}
+
+#featured2 table {
+    width: 100% !important;
+}
+#featured2 table td {
+    border-collapse: collapse;
+    border: 1px solid #CCC;
+    padding: 4px;
+}

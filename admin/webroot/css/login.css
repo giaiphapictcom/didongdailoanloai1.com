@@ -1,0 +1,48 @@
+body
+{
+    background: #0E6D38 url('../images/win8login.png') center 35px no-repeat;
+    font-size: 13px;
+    font-family : arial, helvetica, sans-serif;
+    Scrollbar-Face-Color: #e6e9eb;
+    Scrollbar-Base-Color: #e6e9eb;
+    height: 570px;
+    position: relative;
+    margin-top: 20px;
+}
+p
+{
+    font-size: 13px;
+    font-family: arial, helvetica, sans-serif;
+}
+td
+{
+    font-size: 13px;
+    color: #FFF;
+    font-family: arial, helvetica, sans-serif;
+}
+.notification {
+    color: #FFF;
+    font-size: 14px;
+    margin-left: 43px;
+    line-height: 26px;
+}
+input {
+    height: 26px;
+    border: none;
+    margin-bottom: 4px;
+    font-weight: bold;
+    width: 300px;
+    background: #F1F1F1;
+    margin-left: 100px;
+    padding-left: 12px;
+}
+.login {
+    background: #0D3B21;
+    border: 1px solid #FFF;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+}

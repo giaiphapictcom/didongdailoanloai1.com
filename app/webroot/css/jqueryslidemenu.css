@@ -1,0 +1,132 @@
+.jqueryslidemenu {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    z-index:99999;
+    height:27px;
+    padding-left: 150px;
+}
+.jqueryslidemenu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/*Top level list items*/
+.jqueryslidemenu ul li {
+    position: relative;
+    display: inline;
+    float: left;
+}
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a {
+    background: url(../images/ducviet2_12.png) no-repeat right;
+    width:auto;
+    display: block;
+    line-height:27px;
+    font-weight:bold;
+    color: #525354;
+    padding:0 20px;
+    text-decoration: none;
+    z-index:99999;
+}
+.jqueryslidemenu ul li ul a {
+    color:#FFF;
+    font-weight:normal;
+}
+.jqueryslidemenu ul li a:hover {
+    background: url(../images/ducviet2_14.png) repeat-x;
+    color: #FFF;
+    text-decoration:none;
+}
+.jqueryslidemenu ul li a.active {
+   background: url(../images/ducviet2_14.png) repeat-x;
+    color: #FFF;
+    text-decoration:none;
+}
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul {
+    position: absolute;
+    left: 0;
+    top:0;
+    visibility: hidden;
+}
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li {
+    display: list-item;
+    float: none;
+}
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li {
+    top: 0px;
+    z-index:9999;
+    margin:0;
+    min-width: 190px;
+    left:0px;
+}
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a {
+    min-width: 190px; /*width of sub menus*/
+    padding: 0px 10px;
+    text-transform:none;
+    line-height:30px;
+    text-align:left;
+    color:#000;
+    border-bottom: 1px solid #999;
+    white-space: nowrap;
+    background:#F4F4F4;
+    z-index:99999;
+}
+.jqueryslidemenu ul li ul li a:hover { /*sub menus hover style*/
+    background: #1A96D1;
+    color: #FFF;
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+.downarrowclass {
+    display:none;
+}
+.rightarrowclass {
+    display:none;
+}
+
+/* ################### Menu Doc################### */
+ul#menu, ul#menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul#menu a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul#menu li {
+  margin-top: 1px;
+}
+
+ul#menu li a {
+  background: url(../images/Trang_con_40.png) no-repeat left;
+  color: #656161;	
+  padding-left: 30px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+ul#menu li a:hover {
+  text-decoration:underline;
+}
+
+ul#menu li ul li a {
+  background: #DEF4FE url(../images/ducviet2_38.png) no-repeat 20px 10px;;
+  color: #656161;
+  padding-left: 40px;
+}
+
+ul#menu li ul li a:hover {
+  background: #31B5EE;
+  border-left: 5px #0C84BF solid;
+  padding-left: 35px;
+  color:#656161;
+  text-decoration:none;
+}

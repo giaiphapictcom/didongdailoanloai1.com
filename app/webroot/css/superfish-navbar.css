@@ -1,0 +1,56 @@
+.sf-navbar {
+    position:		relative;
+}
+.sf-navbar li {
+    position:		static;
+    line-height: 21px;
+    padding: 0px 10px;
+    color: #11002f;
+}
+.sf-navbar li a {
+    border-top:		none;
+    color: #11002f;
+    font-weight: bold;
+}
+.sf-navbar li ul {
+    width:			50em; /*IE6 soils itself without this*/
+}
+.sf-navbar li li {
+    position:		relative;
+}
+.sf-navbar li li ul {
+    width:			13em;
+}
+.sf-navbar li li li {
+    width:			100%;
+}
+.sf-navbar ul li {
+    width:			auto;
+    float:			left;
+}
+.sf-navbar ul li a {
+    background: url(../images/square.png) no-repeat left;
+    color: #FFF;
+}
+.sf-navbar a, .sf-navbar a:visited {
+    border:			none;
+}
+.sf-navbar li .current {
+    background:		#319CCE;
+    color: #FFF;
+}
+.sf-navbar li:hover, .sf-navbar li.sfHover, .sf-navbar li li.current, .sf-navbar a:focus, .sf-navbar a:hover, .sf-navbar a:active {
+    background:		#319CCE;
+    color: #FFF;
+}
+.sf-navbar ul li:hover, .sf-navbar ul li.sfHover, ul.sf-navbar ul li:hover li, ul.sf-navbar ul li.sfHover li, .sf-navbar ul a:focus, .sf-navbar ul a:hover, .sf-navbar ul a:active {
+    background: url(../images/square.png) no-repeat 12px center;
+    text-decoration: underline;
+}
+ul.sf-navbar .current ul, ul.sf-navbar ul li:hover ul, ul.sf-navbar ul li.sfHover ul {
+    left:			0;
+    top:			2.5em; /* match top ul list item height */
+}
+ul.sf-navbar .current ul ul {
+    top: 			-999em;
+}

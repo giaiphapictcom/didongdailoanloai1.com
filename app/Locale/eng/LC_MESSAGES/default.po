@@ -1,0 +1,107 @@
+msgid "trangchu"
+msgstr "Home page"
+
+msgid "gioithieu"
+msgstr "Introduction"
+
+msgid "danhmucsp"
+msgstr "Cataloges"
+
+msgid "timkiemsanpham"
+msgstr "Advanced search"
+
+msgid "hotrotructuyen"
+msgstr "Support online"
+
+msgid "sanphambanchay"
+msgstr "Featured Products"
+
+msgid "doitactincay"
+msgstr "Reliable partner"
+
+msgid "tensanpham"
+msgstr "Product name"
+
+msgid "sanpham"
+msgstr "Product"
+
+msgid "masanpham"
+msgstr "Product code"
+
+msgid "lienhe"
+msgstr "Contact"
+
+msgid "hoten"
+msgstr "Full name"
+
+msgid "dienthoai"
+msgstr "Phone"
+
+msgid "tieude"
+msgstr "Title"
+
+msgid "noidung"
+msgstr "Content"
+
+msgid "quangcao"
+msgstr "Advertisments"
+
+msgid "kienthucgiadinh"
+msgstr ""
+
+msgid "sanphammoi"
+msgstr "New products"
+
+msgid "sanphamhot"
+msgstr "Hot products"
+
+msgid "tintucmoi"
+msgstr "Hot news"
+
+msgid "chitietsanpham"
+msgstr "Detail"
+
+msgid "sanphamcungloai"
+msgstr "Related products"
+
+msgid "chitiet"
+msgstr "Detail"
+
+msgid "danhgianhanxet"
+msgstr ""
+
+msgid "ten"
+msgstr "Full name"
+
+msgid "diachiemail"
+msgstr "Email"
+
+msgid "sodienthoai"
+msgstr "Phone"
+
+msgid "maxacthuc"
+msgstr ""
+
+msgid "noidungnhanxet"
+msgstr "Content"
+
+msgid "gui"
+msgstr "Send"
+
+msgid "cactinlienquan"
+msgstr "Related news"
+
+msgid "thucdon"
+msgstr "Menu"
+
+msgid "datban"
+msgstr "Order"
+
+msgid "sukien"
+msgstr "Event"
+
+msgid "giohang"
+msgstr "Cart"
+
+msgid "cactindadua"
+msgstr "Related news"
